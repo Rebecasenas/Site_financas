@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finanças em foco</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Finanças em foco</h1>
+        <nav>
+            <ul>
+                <ol><a href="./index.html">Inicio</a></ol>
+                <ol><a href="./sobre.html">Sobre</a></ol>
+                <ol><a href="./contato.html">Contato</a></ol>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form action="executar_formulario.php">
+                <h2>Entre em contato</h2>
+                <br>
+                <label for="nome">Nome:</label>
+                <br>
+                <input type="text" id="nome" class="nome" name="nome" required>
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" class="email" name="email" required>
+                <br>
+                <select name="assunto" >
+                    <option value="select">Selecione um assunto</option>
+                    <option value="contas_a_pagar">Contas a pagar</option>
+                    <option value="contas_a_receber">Contas a receber</option>
+                    <option value="analise">Análise de fluxo de caixa</option>
+                    <option value="aplicacao_int">Aplicação inteligente</option>
+                    <option value="tec_gerenciamento">Técnicas de gerenciamento</option>
+                </select>
+                <br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Deixe sua mensagem"></textarea>
+                <input type="submit" class="submit">
+            </form>
+            <div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2024 Finanças em foco. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
